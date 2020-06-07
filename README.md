@@ -1,9 +1,9 @@
-# ThirdEye
+# Sentr3y3
 
 Instructions to install the application:
 1. Clone the repo and enter it
 ```
-git clone <url> && cd ThirdEye
+git clone https://github.com/Ajayneethikannan/HTNE-Sentr3y3 && cd Sentr3y3
 ```
 
 2. Create a virtual environment
@@ -27,22 +27,19 @@ pip install wheels
 pip install -r requirements.txt
 ```
 
-6. Enter the django project, Migrate the database, create a super user
+6. Make executables
 ```
-cd djangProj
-python manage.py makemigrations details
-python manage.py migrate
-python manage.py createsuperuser
+sudo chmod u+x setup.sh Sentreye.sh
 ```
 
-7. Run the django server
+7. Set up servers
 ```
-python manage.py runserver
+./setup.sh
 ```
 
 8. Run the application
 ```
-python mainApplication.py
+./Sentreye.sh
 ```
 
 9. To change the content restriction settings and to add/change the apps timings, go to the website http://localhost:8000/admin/details

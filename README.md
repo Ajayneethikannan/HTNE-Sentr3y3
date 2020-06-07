@@ -1,4 +1,4 @@
-# ThirdEye
+# Sentr3y3
 
 Instructions to install the application:
 1. Clone the repo and enter it

@@ -27,13 +27,14 @@ pip install wheels
 pip install -r requirements.txt
 ```
 
-6. Enter the django project, Migrate the database, create a super user
+6. Make executables
 ```
-cd djangProj
-python manage.py makemigrations details
-python manage.py migrate
-python manage.py createsuperuser
+sudo chmod u+x setup.sh Sentreye.sh
+```
 
+7. Set up servers
+```
+./setup.sh
 ```
 
 8. Run the application

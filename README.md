@@ -3,7 +3,7 @@
 Instructions to install the application:
 1. Clone the repo and enter it
 ```
-git clone https://github.com/Ajayneethikannan/HTNE-Sentr3y3 && cd Sentr3y3
+git clone https://github.com/Ajayneethikannan/HTNE-Sentr3y3 Sentr3y3 && cd Sentr3y3
 ```
 
 2. Create a virtual environment

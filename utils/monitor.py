@@ -58,6 +58,7 @@ def monitor(refreshTime):
                         
                         # time limit warning
                         remaining_time = app['time_limit'] - app['time_today']
+                        print(remaining_time)
                         if (remaining_time > 2*refreshTime and remaining_time < 3*refreshTime ):
                             message = 'The time limit of ' + app['title'] + ' will be reached after ' + str(remaining_time) + ' seconds.'
                             notif('Session limit warning', message)

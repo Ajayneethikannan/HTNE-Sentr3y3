@@ -3,7 +3,7 @@
 Instructions to install the application:
 1. Clone the repo and enter it
 ```
-git clone <url> && cd ThirdEye
+git clone <url> && cd Sentr3y3
 ```
 
 2. Create a virtual environment
